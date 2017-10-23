@@ -1,0 +1,73 @@
+body {
+  font-family: helvetica;
+}
+
+.info-general {
+
+  width: 1350px;
+  height: 64px;
+
+}
+
+.menuprincipal{
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+  display: inline-flex;
+  line-height: 54px;
+  margin-left: 50px;
+
+
+}
+
+.menuprincipal .logo{
+outline: 1px solid black;
+  width: 50px;
+  height: 43px;
+
+}
+
+.menuprincipal .search {
+  border-radius: 6px;
+  height: 43px;
+  width: 1000px;
+  margin-left: 10px;
+  background-color: #efefef;
+}
+
+.menuprincipal .user , .menuprincipal .list , .menuprincipal .notifications {
+outline: 1px solid black;
+height: 43px;
+width: 50px;
+margin-left: 10px;
+
+}
+
+
+
+header{
+  position: fixed;
+
+}
+
+nav {
+border-top: 1px solid #efefef;
+  height: 85px;
+
+}
+
+nav ul li {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 85px;
+  margin: 5px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 11px;
+  padding: 0;
+  display: inline-flex;
+  line-height: 54px;
+}
