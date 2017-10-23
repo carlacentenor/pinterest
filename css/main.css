@@ -103,20 +103,18 @@ nav ul {
   background-image: url("../assets/images/imagen1.jpg");
   background-size: 240px 340px;
   border-radius:20px;
-  position: relative;
-  left: 16px;
-  top: 170px;
+  margin-top: 175px;
+  margin-left: 10px;
 }
 
 .imagen2{
   outline: 1px solid violet;
   width: 282px;
   height: 761px;
-  margin-left: 20px;
+  margin-left: 260px;
   background-image: url("../assets/images/imagen2.jpg");
   background-size: 282px 761px;
   border-radius:20px;
-  position: relative;
-  left: 260px;
-  top: 170px;
+margin-top:-400px;
+
 }
