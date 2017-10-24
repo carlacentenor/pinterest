@@ -1,11 +1,10 @@
-header{
+header {
   position: fixed;
-outline: 1px solid orange;
-top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background: yellow;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 body {
@@ -13,71 +12,91 @@ body {
 }
 
 .info-general {
-
-  width: 1350px;
+  width: 100%;
   height: 64px;
-outline: 1px solid blue;
-
+  margin-left: 10px;
 }
 
-.menuprincipal{
+.menuprincipal {
   list-style: none;
   margin-top: 10px;
   padding: 0;
   overflow: auto;
   line-height: 54px;
   height: inherit;
-outline: 1px solid yellow;
-
-
+  margin-left: 30px;
 }
 
-.menuprincipal .logo{
-
+.menuprincipal .logo {
   width: 50px;
   height: 43px;
-float: left;
-margin-left: 10px;
-margin-top: 10px;
-background-image: url("../assets/images/logo.png");
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-image: url("../assets/images/logo.png");
 }
 
 .menuprincipal .search {
   border-radius: 6px;
-  height: 43px;
-  width: 500px;
+  height: 40px;
+  width: 75%;
   margin-left: 10px;
   margin-top: 10px;
   background-color: #efefef;
   float: left;
 }
 
-.menuprincipal .user , .menuprincipal .list , .menuprincipal .notifications {
-outline: 1px solid black;
-height: 43px;
-width: 50px;
-margin-left: 10px;
-float: left;
-margin-top: 10px;
+.menuprincipal .user, .menuprincipal .list, .menuprincipal .notifications {
+  height: 43px;
+  width: 50px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
 }
 
+.search {
+  position: relative;
+}
 
+input {
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: 15px;
+  font-size: 16px;
+  color: #555;
+  font-weight: 600;
+  height: 100%;
+  cursor: auto;
+  user-select: text;
+  text-rendering: auto;
+}
 
+div .boxsearch:first-child {
+  position: absolute;
+  top: -6px;
+  margin-left: 10px;
+}
 
+span {
+  color: #b5b5b5;
+  margin-left: 10px;
+}
 
 nav {
-border-top: 1px solid #efefef;
-  height: 85px;
-
+  border-top: 1px solid #efefef;
+  height: auto;
+  margin-left: 0;
 }
 
 nav ul li {
-  border: 1px solid black;
-  border-radius: 6px;
   width: 85px;
   margin: 5px;
   text-align: center;
   float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 nav ul {
@@ -88,33 +107,377 @@ nav ul {
   line-height: 54px;
 }
 
-/*.imagenes {
-  width: 1350px;
-  outline: 1px solid green;
+.boton1 {
+  border-radius: 10px;
+  background-color: rgb(175, 146, 143);
+  background-image: url("../assets/images/fondo.jpg");
+}
 
-  position: absolute;
-  top: 170px;
-  left: 25px;
-}*/
-.imagen1{
-  outline: 1px solid violet;
-  width: 240px;
+.boton2 {
+  border-radius: 10px;
+  background-color: rgb(201, 205, 218);
+}
+
+.boton3 {
+  border-radius: 10px;
+  background-color: rgb(142, 94, 65);
+}
+
+.boton4 {
+  border-radius: 10px;
+  background-color: rgb(46, 53, 62);
+}
+
+.boton5 {
+  border-radius: 10px;
+  background-color: rgb(198, 106, 165);
+}
+
+.boton6 {
+  border-radius: 10px;
+  background-color: rgb(113, 80, 56);
+}
+
+.boton7 {
+  border-radius: 10px;
+  background-color: rgb(129, 107, 71);
+}
+
+.boton8 {
+  border-radius: 10px;
+  background-color: rgb(205, 199, 177);
+}
+
+.boton9 {
+  border-radius: 10px;
+  background-color: rgb(161, 126, 87);
+}
+
+.boton10 {
+  border-radius: 10px;
+  background-color: rgb(189, 176, 156);
+}
+
+/******************CAJA DE INFORMACION 2***************************/
+
+
+
+h4 {
+  margin-left: 12px;
+  margin-bottom: 0;
+  width: 60%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.view {
+  /***iconos de check*/
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: serif;
+}
+
+.texto p {
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-bottom: 0;
+  width: 60%;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 2000px;
+  background-color: #d597a1;
+  box-sizing: border-box;
+  padding-top: 6px;
+  margin-top: 0px;
+  margin-left: 13px;
+}
+
+.user-initial {
+  color: white;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.datosuser {
+  margin-top: 0;
+  padding: 2px;
+  margin-bottom: 0;
+}
+
+.nom-user {
+  margin-top: -22px;
+  margin-left: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nom-user span {
+  font-weight: normal;
+  color: initial;
+  margin: 0;
+}
+
+.nom-user p {
+  padding: 0;
+  margin: 0;
+}
+
+/***********CAJA 1********/
+
+h4 {
+  margin-left: 12px;
+  margin-bottom: 0;
+  width: 60%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.view {
+  /***iconos de check*/
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: serif;
+}
+
+.texto p {
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-bottom: 0;
+  width: 60%;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 2000px;
+  background-color: #d597a1;
+  box-sizing: border-box;
+  padding-top: 6px;
+  margin-top: 0px;
+  margin-left: 13px;
+}
+
+.user-initial {
+  color: white;
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.datosuser {
+  margin-top: 0;
+  padding: 2px;
+  margin-bottom: 0;
+}
+
+.nom-user {
+  margin-top: -22px;
+  margin-left: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nom-user span {
+  font-weight: normal;
+  color: initial;
+  margin: 0;
+}
+
+.nom-user p {
+  padding: 0;
+  margin: 0;
+}
+
+.caja1 {
+
+  height: 470px;
+  width: 255px;
+  float: left;
+  margin-top: 180px;
+}
+
+/***********CAJA 2*******/
+
+.caja2 {
+
+  height: 890px;
+  width: 255px;
+  float: left;
+  margin-top: 180px;
+}
+
+/***********CAJA 3*******/
+
+.caja3 {
+
+  height: 500px;
+  width: 255px;
+  margin-top: 180px;
+  float: left;
+}
+
+/***********CAJA 4*******/
+
+.caja4 {
+
+  height: 950px;
+  width: 255px;
+  margin-top: 180px;
+  float: left;
+}
+
+/***********CAJA 5*******/
+
+.caja5 {
+
+  height: 500px;
+  width: 255px;
+  margin-top: 180px;
+  float: left;
+}
+
+/***caja6***/
+.caja6 {
+
+  height: 500px;
+  width: 255px;
+  margin-top: 0px;
+  float: left;
+}
+
+.caja7 {
+
+  height: 850px;
+  width: 255px;
+  margin-top: -529px;
+  float: left;
+
+}
+
+.caja8 {
+
+  height: 500px;
+  width: 255px;
+  margin-top: -109px;
+  float: left;
+
+}
+
+.caja9{
+
+  height: 500px;
+  width: 255px;
+  margin-top: -480px;
+  float: left;
+}
+
+.caja10{
+
+  height: 500px;
+  width: 255px;
+  margin-top: 31px;
+  float: left;
+  margin-left: -255px;
+}
+
+
+/***IMAGENES**/
+
+.imagenes {
+  margin-left: 20px;
+}
+
+.imagen1 {
+  width: 235px;
   height: 340px;
-  background-image: url("../assets/images/imagen1.jpg");
-  background-size: 240px 340px;
-  border-radius:20px;
-  margin-top: 175px;
+  background-size: 235px 340px;
+  border-radius: 20px;
   margin-left: 10px;
 }
 
-.imagen2{
-  outline: 1px solid violet;
-  width: 282px;
+.imagen2 {
+  width: 235px;
   height: 761px;
-  margin-left: 260px;
-  background-image: url("../assets/images/imagen2.jpg");
-  background-size: 282px 761px;
-  border-radius:20px;
-margin-top:-400px;
+  margin-left: 10px;
+  background-size: 235px 761px;
+  border-radius: 20px;
+}
 
+.imagen3 {
+  width: 235px;
+  height: 378px;
+  margin-left: 10px;
+  background-size: 235px 378px;
+  border-radius: 20px;
+}
+
+.imagen4 {
+  width: 235px;
+  height: 826px;
+  margin-left: 10px;
+  background-size: 235px 826px;
+  border-radius: 20px;
+}
+
+.imagen5 {
+  width: 235px;
+  height: 351px;
+  margin-left: 10px;
+  background-size: 235px 351px;
+  border-radius: 20px;
+}
+
+.imagen6 {
+  width: 235px;
+  height: 351px;
+  margin-left: 10px;
+  background-size: 235px 351px;
+  border-radius: 20px;
+}
+
+.imagen7 {
+  width: 235px;
+  height: 705px;
+  margin-left: 10px;
+  background-size: 200px 351px;
+  border-radius: 20px;
+}
+
+
+.imagen8 {
+  width: 235px;
+  height: 352px;
+  margin-left: 10px;
+  background-size: 200px 352px;
+  border-radius: 20px;
+}
+
+.imagen9{
+  width: 235px;
+  height: 352px;
+  margin-left: 10px;
+  background-size: 200px 314px;
+  border-radius: 20px;
+}
+
+.imagen10{
+  width: 235px;
+  height: 352px;
+  margin-left: 10px;
+  background-size: 200px 314px;
+  border-radius: 20px;
 }
