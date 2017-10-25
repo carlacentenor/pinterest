@@ -10,7 +10,7 @@ El reto consiste en maquetar la web **Pinterest**, siguiendo una plantilla de mo
 
 Los detalles se tomaran en cuenta sobre este modelo en el siguiente enlace : [Pinterest](https://laboratoria.github.io/pinterestify/)
 
-![Pinterest](assets/docs/pinterest.jpg)
+![Pinterest](assets/docs/pinterest.JPG)
 
 ## Detalles adicionales
 
@@ -22,10 +22,10 @@ Los detalles se tomaran en cuenta sobre este modelo en el siguiente enlace : [Pi
 
 - Se debe tener en cuenta los siguientes detalles en el maquetado, tanto en los iconos ,texto y logo de letra inicial del usuario.
 
-  ![Pinterest](assets/docs/detalles.jpg)
+  ![Pinterest](assets/docs/detalles.JPG)
 
 
 ### Proyecto Terminado
-  ![Pinterest](assets/docs/final.jpg)
+  ![Pinterest](assets/docs/final.JPG)
 
   Desarrollado por Carla Centeno Ramos.
