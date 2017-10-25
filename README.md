@@ -6,7 +6,7 @@ La web Pinterest (maquetado) se ha creado desde cero incluyendo diversas imágen
 
 El reto consiste en maquetar la web **Pinterest**, siguiendo una plantilla de modelo pero con la especificación de que las imágenes y el tema pueden ser de libre elección:
 
-** Tema Elegido "Decoration Christmas" **
+**Tema Elegido "Decoration Christmas**
 
 Los detalles se tomaran en cuenta sobre este modelo en el siguiente enlace : [Pinterest](https://laboratoria.github.io/pinterestify/)
 
